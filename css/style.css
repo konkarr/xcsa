@@ -140,9 +140,10 @@ background-color:  var(--headercolor);
 .home-content{
     color: #fff;
 min-width: 18rem;
-max-width: 30rem;
+max-width: 100%;
  background-color: #23283d88;
- max-height: 30rem;
+ min-height: 30rem;
+ max-height: 80vh;
  margin-top: 5rem;
 }
 .home-item{
